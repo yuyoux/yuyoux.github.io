@@ -1,0 +1,153 @@
+/* Footer */
+body > footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* copyrights block */
+body > footer .copyrights {
+    display: block;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+/* / copyrights block */
+/* / Footer */
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+
+/* nav bar */
+.navbar-light .nav-item > .nav-link.active  {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(211,211,211,0.3);
+    border: none;
+}
+
+.navbar .h1 {
+    color: white;
+}
+
+.navbar-collapse .navbar-nav > li > a {
+    color: #f0f0e6;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 10px 5px 5px 5px;
+    border-radius: 5px; }
+/* /nav bar */
+
+/* about section */
+#about {
+    background-color: #07374a; }
+#about h2 {
+    color: #25b79f; }
+
+.about-real {
+    background-color: #fff;
+    font-size: 1.4em;
+    color: #777;
+}
+
+h2 {
+    color: #777;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.list-group-flush .list-group-item {
+    background-color: #fff;
+    border-top: 1px white;
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+.list-group-flush .list-group-item:hover {
+    background-color: #777;
+    color: #fff;
+}
+/*/ about section */
+
+/* portfolio section */
+.portfolio__content {
+    color: #777;
+}
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+/*/ portfolio section */
+
+/* contact section */
+.contact-real {
+    background-color: #fff;
+    font-size: 1em;
+    color: #777;
+}
+
+.contact-social-icons ul a {
+    color: #777;
+    list-style: none; }
+.contact-social-icons ul a:hover {
+    color: #f0f0e6; }
+.contact-social-icons ul a li {
+    display: inline-block;
+    padding: 2%; }
+/*/ contact section */
+
+/* images */
+.bimg1__wrap {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bimg1 {
+    min-height: 400px;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bimg2__wrap {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bimg2 {
+    min-height: 400px;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bimg3__wrap {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bimg3 {
+    min-height: 400px;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /* /images */
